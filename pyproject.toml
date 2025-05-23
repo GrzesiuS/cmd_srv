@@ -1,0 +1,13 @@
+[project]
+name = "cmd-srv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.12",
+    "loguru>=0.7.3",
+    "pydantic>=2.11.5",
+    "pyinstaller>=6.13.0",
+    "uvicorn>=0.34.2",
+]
